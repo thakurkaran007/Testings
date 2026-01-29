@@ -1,0 +1,30 @@
+{
+  "name": "integrationtesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:integration": "./scripts/run-integrations-test.sh",
+    "start": "npx tsx src/bin.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.3.0",
+    "@prisma/client": "^7.3.0",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "@types/supertest": "^6.0.3",
+    "dotenv": "^17.2.3",
+    "prisma": "^7.3.0",
+    "supertest": "^7.2.2"
+  }
+}

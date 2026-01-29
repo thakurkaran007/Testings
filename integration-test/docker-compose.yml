@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: karan
+      POSTGRES_PASSWORD: thakur
+      POSTGRES_DB: db_karan
+    ports:
+      - "5432:5432"
