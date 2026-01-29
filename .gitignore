@@ -1,0 +1,51 @@
+# --------------------
+# Node.js
+# --------------------
+node_modules/
+**/node_modules/
+
+# Lock files (ignore in all subfolders)
+package-lock.json
+**/package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --------------------
+# TypeScript
+# --------------------
+*.tsbuildinfo
+
+# --------------------
+# Logs
+# --------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --------------------
+# Build outputs
+# --------------------
+dist/
+build/
+out/
+**/dist/
+**/build/
+
+# --------------------
+# Jest / Testing
+# --------------------
+coverage/
+**/coverage/
+
+# --------------------
+# OS / Editor junk
+# --------------------
+.DS_Store
+**/.DS_Store
+
+# --------------------
+# Environment files
+# --------------------
+.env
+.env.*
+
